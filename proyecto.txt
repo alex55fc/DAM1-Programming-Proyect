@@ -1,0 +1,23 @@
+insert into banda(nombre, años_actuacion,lugar_origen,genero) values ('Queen', 34, 'Ingaterra', 'Rock');
+insert into banda(nombre, años_actuacion,lugar_origen,genero) values ('Green Day', 30, 'EEUU', 'Punk-Rock');
+insert into banda(nombre, años_actuacion,lugar_origen,genero) values ('Mecano', 50, 'España', 'Pop');
+insert into banda(nombre, años_actuacion,lugar_origen,genero) values ('The Beatles', 25, 'Ingaterra', 'Rock');
+insert into banda(nombre, años_actuacion,lugar_origen,genero) values ('Red Hot Chili Peppers', 35, 'EEUU', 'Rock');
+insert into banda(nombre, años_actuacion,lugar_origen,genero) values ('Backstreet Boys', 15, 'EEUU', 'Pop');
+
+
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento, codigo_banda) values ('Freddie Mercury', '05/09/1946', 'Inglaterra', 'Inglés', 'Cantante', 1);
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento, codigo_banda) values ('Brian May', '19/07/1947', 'Inglaterra', 'Inglés', 'Guitarrista', 1);
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento) values ('David Bisbal', '05/06/1979', 'España', 'Español', 'Cantante');
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento, codigo_banda) values ('Ana Torroja', '28/12/1959', 'España', 'Española', 'Cantante', 3);
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento) values ('Bad Bunny', '10/03/1994', 'Puerto Rico', 'Puertorriquenio', 'Cantante');
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento, codigo_banda) values ('Tre Cool', '09/12/1972', 'Alemania', 'Aleman', 'Bateria', 2);
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento, codigo_banda) values ('Flea', '16/10/1962', 'Australia', 'Australiano', 'Bajista', 5);
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento) values ('Elvis Presley', '08/01/1935', 'EEUU', 'Americano', 'Cantante');
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento, codigo_banda) values ('Jhon Lennon', '09/10/1940', 'EEUU', 'Americano', 'Guitarrista', 4);
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento) values ('Aratha Franklin', '25/03/1941', 'EEUU', 'Americana', 'Cantante');
+insert into musico(nombre, fecha_nacimiento,lugar_residencia, nacionalidad, instrumento) values ('Bob Marley', '06/02/1945', 'Jamaica', 'Jamaicano', 'Cantante');
+
+insert into album (autor, titulo, anio_publicacion, tipo, duracion, codigo_banda) values ('Green Day', 'Dookie', 1994 ,'Punk', '38:22', 2);
+
+insert into cancion(posicion, titulo, compositor, duracion, codigo_album) values (1, 'aa', 'bb', '3:00 minutos', 1);
