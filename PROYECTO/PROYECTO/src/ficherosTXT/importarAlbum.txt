@@ -1,0 +1,3 @@
+17;musico;prueba;27;estudioso;33;4
+18;musico;prueba;22;estudioso;33;11
+19;banda;prueba;29;estudioso;33;2
